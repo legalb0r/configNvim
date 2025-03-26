@@ -1,44 +1,44 @@
+## Hello
 # 📝 STEPS TO FOLLOW
 
 ## 1️⃣ Install the Latest Version of Neovim (Example with Snap)
 
-``̀`bash
+```bash
 sudo snap install nvim --classic
-``̀`
+```
 
 🔍 Check the installed version with:
 
-``̀`bash
+```bash
 nvim --version
-``̀`
+```
 
 ## 2️⃣ Clone the Repo
 
 - Clone the repo locally.
 - Copy all files from the repo into the nvim config directory.
 
-``̀`bash
+```bash
 cp yourgitrepo/* ~/.config/nvim/
-``̀`
+```
 
 ## 3️⃣ Install `vim-plug`
 
 1. Open Neovim and run the following command to install `vim-plug`, the plugin manager:
 
-``̀`bash
+```bash
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  ``̀`
-
+```
   2. After installing `vim-plug`, you can add plugins to your `init.vim` configuration file.
 
 ## 4️⃣ Install the Plug Packages in Neovim
 
 Inside Neovim, run the following command to install the plugins:
 
-``̀`bash
+```bash
 :PlugInstall
-``̀`
+```
 
 ## 5️⃣ Install Nerd Fonts
 
